@@ -1,0 +1,90 @@
+body {
+   background-color: white;
+}
+nav {
+   background-color: #2d51a2;
+
+}
+h1 {
+   margin-top: 0px;
+   padding-top: 30px;
+   color: white;
+   font-size: 81px;
+}
+#navRight {
+   text-align: right;
+   margin-right: 52px;
+}
+.navLeft {
+   margin-left: 52px;
+}
+.midPic {
+   background-image: url('https://i.ytimg.com/vi/CajrpjRVKKk/maxresdefault.jpg');
+   height: 240px;
+   text-align: center;
+   margin: auto;
+   margin-top: 0px;
+}
+.layer{
+   color: blue;
+}
+
+.btn {
+   background-color: #2d51a2;
+   color: white;
+}
+
+}
+h5 {
+   margin: auto;
+}
+
+}
+.midP {
+   float: left;
+   display: inline-block;
+}
+.material-icons {
+   color: #2d51a2;
+   margin: auto;
+}
+footer.page-footer {
+   background-color: #2d51a2;
+   color: white;
+
+}
+div.footer-copyright{
+   background-color: black;
+}
+.push-s6 div{
+   text-align: center;
+}
+
+footer h6{
+   font-size: 21px;
+}
+footer p {
+   font-size: 13px;
+}
+
+.menu {
+   border: 1px solid red;
+   text-align: center;
+}
+.order {
+   text-align: center;
+   border: 1px solid purple;
+}
+.food{
+   border: 1px solid blue;
+}
+table.striped{
+   border: 1px solid blue;
+}
+.total {
+   border: 1px solid red;
+}
+section div img{
+   width: 160px;
+   height: 130px;
+}
