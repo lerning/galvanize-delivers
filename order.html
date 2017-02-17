@@ -6,6 +6,13 @@
        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <link rel="stylesheet" href="styles.css">
+      <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+      <script type="text/javascript" src='order.js'>
+
+      </script>
    </head>
    <body>
       <nav>
@@ -25,7 +32,7 @@
                      <div>$8.99</div>
                   </div>
                   <div class='card-action'>
-                     <a href="#">ADD TO ORDER</a>
+                     <a id='burgerAdd' href="#">ADD TO ORDER</a>
                   </div>               </div>
                <div class='col s6 container food card'>
                   <img class='card image' src="http://images.media-allrecipes.com/userphotos/960x960/3757813.jpg">
@@ -34,7 +41,7 @@
                      <div>$11.99</div>
                   </div>
                   <div class='card-action'>
-                     <a href="#">ADD TO ORDER</a>
+                     <a id='greenAdd' href="#">ADD TO ORDER</a>
                   </div>               </div>
                <div class='col s6 container food card'>
                   <img class='card image' src="http://vignette3.wikia.nocookie.net/rickandmorty/images/7/7c/Tumblr_n428bgzJq11s5e4c3o1_400.gif/revision/latest?cb=20140429011912">
@@ -43,7 +50,7 @@
                      <div>$14.99</div>
                   </div>
                   <div class='card-action'>
-                     <a href="#">ADD TO ORDER</a>
+                     <a href="#" id='kalAdd'>ADD TO ORDER</a>
                   </div>
                </div>
                <div class='col s6 container food card'>
@@ -53,7 +60,7 @@
                      <div>$7.99</div>
                   </div>
                   <div class='card-action'>
-                     <a href="#">ADD TO ORDER</a>
+                     <a href="#" id="slurmAdd">ADD TO ORDER</a>
                   </div>
                </div>
             </div>
@@ -68,20 +75,20 @@
                      </thead>
                      <tbody>
                         <tr>
-                           <td>Krabby Patty</td>
-                           <td>8.99</td>
+                           <td class='burgerTab'>Krabby Patty</td>
+                           <td class='burgerTab' id='addyB'>0.00</td>
                         </tr>
                         <tr>
-                           <td>Soylent Green</td>
-                           <td>11.99</td>
+                           <td class='greenTab'>Soylent Green</td>
+                           <td class='greenTab' id='addyG'>0.00</td>
                         </tr>
                         <tr>
-                           <td>Kalaxian Crystals</td>
-                           <td>14.99</td>
+                           <td class='kalTab'>Kalaxian Crystals</td>
+                           <td class='kalTab' id='addyK'>0.00</td>
                         </tr>
                         <tr>
-                           <td>Slurm!</td>
-                           <td>7.99</td>
+                           <td class='slurmTab'>Slurm!</td>
+                           <td class='slurmTab' id='addyS'>0.00</td>
                         </tr>
 
                      </tbody>
@@ -91,15 +98,15 @@
                         <tbody>
                            <tr>
                               <td>Subtotal</td>
-                              <td>$$</td>
+                              <td id='subTotal'>0.00</td>
                            </tr>
                            <tr>
-                              <td>Tax</td>
-                              <td>$</td>
+                              <td>tax</td>
+                              <td id="tax">0.00</td>
                            </tr>
                            <tr>
                               <td>Total</td>
-                              <td>$$$</td>
+                              <td id="total">0.00</td>
                            </tr>
                         </tbody>
                      </table>
@@ -131,7 +138,7 @@
                <p>Fine Dining, Delivered</p>
             </div>
             <div class='col push-s6'>
-               <div>Home</div>
+               <a href='index.html'><div>Home</div></a>
                <div>Order Delivery</div>
             </div>
          </div>

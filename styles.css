@@ -88,3 +88,19 @@ section div img{
    width: 160px;
    height: 130px;
 }
+
+#burgerAdd{
+
+}
+.burgerTab{
+   display: none;
+}
+.greenTab{
+   display: none;
+}
+.kalTab{
+   display: none;
+}
+.slurmTab{
+   display: none;
+}
