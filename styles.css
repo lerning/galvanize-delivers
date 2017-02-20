@@ -1,15 +1,29 @@
-body {
-   background-color: white;
+*{
+   font-family: "Trebuchet MS", cursive, sans-serif;
 }
+
+body {
+
+}
+#orderBackground{
+   background:
+ background:linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url(http://lorempixel.com/800/600/nature/2);
+   background-size: 1500px;
+   background-position: center;
+
+}
+
 nav {
-   background-color: #2d51a2;
+   background-color: rgb(45, 81, 162);
 
 }
 h1 {
    margin-top: 0px;
    padding-top: 30px;
    color: white;
-   font-size: 81px;
+   font-size: 76px;
+   border: 1px solid transparent;
+
 }
 #navRight {
    text-align: right;
@@ -19,12 +33,18 @@ h1 {
    margin-left: 52px;
 }
 .midPic {
-   background-image: url('https://i.ytimg.com/vi/CajrpjRVKKk/maxresdefault.jpg');
-   height: 240px;
+   background: url('https://www.wicked-wine.com/wp-content/uploads/2016/11/wineglasses.jpg');
+   background-size: 1200px;
    text-align: center;
+   background-position: top;
    margin: auto;
    margin-top: 0px;
 }
+
+button.btnbtnbtn{
+   margin-bottom: 20px;
+}
+
 .layer{
    color: blue;
 }
@@ -68,12 +88,15 @@ footer p {
 }
 
 .menu {
-   /*border: 1px solid red;*/
    text-align: center;
+   font-size: 21px;
+   font-family: "Comic Sans MS", cursive, sans-serif;;
 }
 .order {
    text-align: center;
-   /*border: 1px solid purple;*/
+   font-size: 21px;
+   font-family: "Comic Sans MS", cursive, sans-serif;;
+
 }
 .food{
    /*border: 1px solid blue;*/
@@ -102,5 +125,51 @@ section div img{
    display: none;
 }
 .slurmTab{
+   display: none;
+}
+.card{
+
+}
+.card .card-content.cardyCard{
+   padding: 0px;
+   text-align: center;
+}
+
+div img.card{
+   display: block;
+   margin: auto;
+   margin-top: 9px;
+}
+
+a.btn.placeyPlace{
+   width: 25%;
+   margin: auto;
+   text-align: center;
+   float: none;
+   display: block;
+}
+
+.card .card-action a.addorder{
+   display: block;
+   margin: inherit;;
+   float: none;
+   text-align: center;
+   color: black;
+}
+div.container.food.card{
+   margin-left: 0px;
+
+}
+
+.cleary {
+   margin-top: 58px;
+   border-radius: 10%;
+   width: 100px;
+   text-align: center;
+   background-color: white;
+   color: black;
+}
+
+.clearclear {
    display: none;
 }
