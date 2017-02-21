@@ -41,7 +41,16 @@ $('.cleary').click(function(){
 })
 
 $('.placeyPlace').click(function(){
-   alert('our fastest birds are on their way')
+   console.log($('#name').val());
+   if ($('#name').val() === '') {
+      Materialize.toast('Please Fill in your First Name', 4000, 'rounded')
+   } else if ($('#phoneNumber').val() === '') {
+      Materialize.toast('Please Fill in your Phone Number', 4000, 'rounded')
+   } else if ($('#address').val() === '') {
+      Materialize.toast('Please Fill in your Address', 4000, 'rounded')
+   } else {
+      Materialize.toast('Delivery has begun', 7000, 'rounded')
+   }
 })
 
 })
